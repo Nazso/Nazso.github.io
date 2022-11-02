@@ -35,6 +35,21 @@ hr {
     color: bisque;
 }
 
+.flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex div {
+    border: 2px solid red;
+    border-radius: 3px;
+    padding: 10px;
+    width: 25%;
+}
+
+.flex div h2 {
+    text-align: center;
+}
 .container-about {
     margin: 10px auto;
     border: 2px solid black;
@@ -100,6 +115,7 @@ a {
 
 caption {
     color: brown;
+    font-size:xx-large;
 }
 
 th {
@@ -108,7 +124,6 @@ th {
 
 tfoot {
     text-align: center;
-    padding: 100px;
     color: greenyellow;
 }
 
@@ -119,4 +134,8 @@ tfoot {
 .btn a {
     color: azure;
 
+}
+
+th, td {
+    padding: 10px;
 }
