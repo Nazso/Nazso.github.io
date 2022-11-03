@@ -1,6 +1,5 @@
 body {
     background-color: aquamarine;
-
 }
 
 .nav {
@@ -13,8 +12,7 @@ body {
 
 .nav li {
     display: inline;
-    padding: 10px;
-    
+    padding: 10px;  
 }
 
 hr {

@@ -38,6 +38,7 @@ hr {
 .flex {
     display: flex;
     justify-content: space-around;
+    padding: 10px;
 }
 
 .flex div {
@@ -46,6 +47,10 @@ hr {
     padding: 10px;
     width: 25%;
 }
+
+.flex div:hover {
+    box-shadow: 5px 5px 5px 5px black;
+ }
 
 .flex div h2 {
     text-align: center;
@@ -138,4 +143,47 @@ tfoot {
 
 th, td {
     padding: 10px;
+}
+
+.background-green {
+    background-color: green;
+}
+
+.background-yellow {
+    background-color: yellow;
+}
+
+.background-red {
+    background-color: red;
+}
+
+.background-card {
+    background-color: peru;
+}
+
+.click-counter {
+    background-color: rgb(206, 201, 201);
+    border: 3px solid black;
+    border-radius: 5px;
+    width: 500px;
+    margin: 10px auto;
+    padding: 10px
+}
+
+.click-counter div {
+    max-width: 500px;
+    margin: auto;
+    padding: 5px;
+    font-size: x-large;
+}
+
+.click-counter h3 {
+    margin-top: 0;
+}
+
+.show {
+    margin: 20px;
+    background-color: bisque;
+    border-radius: 10px;
+    height: 30px;
 }
