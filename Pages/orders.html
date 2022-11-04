@@ -33,25 +33,41 @@
             <fieldset>
                 <legend>Please fill the form!</legend>
                 <div class="fieldset">
-                    <div>
-                        <label for="firstname">Give your firstname: </label><br>
-                        <input type="text" id="firstname" placeholder="Enter yor firstname...">
+                    <div class="flex-input">
+                        <div class="input-name">
+                            <label for="firstname">Give your firstname: </label><br>
+                            <input type="text" id="firstname" placeholder="Enter yor firstname...">
+                        </div>
+                        <div class="input-name">
+                            <label for="lastname">Give your lastname: </label><br>
+                            <input type="text" id="lastname" placeholder="Enter your lastname...">
+                        </div>          
                     </div>
                     <div>
-                        <label for="lastname">Give your lastname: </label><br>
-                        <input type="text" id="lastname" placeholder="Enter your lastname...">
-                    </div>               
-                    <div>
-                        <label for="email">Give your email-address: </label><br>
-                        <input type="email" id="email" placeholder="Enter your email addresse...">
+                        <label for="email">Give your email address: </label><br>
+                        <input type="email" id="email" placeholder="Enter your email address...">
+                    </div>
+                    <div class="flex-input">
+                        <div>
+                            <label for="city">Give your city: </label><br>
+                            <input type="text" id="city" placeholder="Enter your city...">
+                        </div>                
+                        <div>
+                            <label for="phone">Give your phone number: </label><br>
+                            <input type="number" id="phone" placeholder="Enter your phone number...">
+                        </div> 
                     </div>                
                     <div>
-                        <label for="city">Give your city: </label><br>
-                        <input type="text" id="city" placeholder="Enter your city...">
-                    </div>                
+                        <label for="food">Select one type of foods: </label><br>
+                        <select name="food" id="food">
+                            <option value="Burger">Burger</option>
+                            <option value="Soup">Soup</option>
+                            <option value="Dessert">Dessert</option>
+                        </select>
+                    </div> 
                     <div>
-                        <label for="phone">Give your phone number: </label><br>
-                        <input type="number" id="phone" placeholder="Enter your phone number...">
+                        <label for="name-of-food">Give the name of food: </label><br>
+                        <input type="text" id="name-of-food" placeholder="Enter the name of food...">
                     </div> 
                 </div>
                 <button class="submit" type="submit">Send</button>
@@ -67,6 +83,8 @@
                     <th>Email</th>
                     <th>City</th>
                     <th>Phone</th>
+                    <th>Type of food</th>
+                    <th>Name of food</th>
                 </tr>
             </thead>
             <tbody class="new-row">
@@ -76,6 +94,8 @@
                     <td>joe@qh.com</td>
                     <td>Quahog</td>
                     <td>1256335544585</td>
+                    <td>Soup</td>
+                    <td>Beansoup</td>
                 </tr>
             </tbody>
         </table>

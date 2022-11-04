@@ -5,6 +5,8 @@ $('.submit').click(event => {
     const email = $('#email').val();
     const city = $('#city').val();
     const phone = $('#phone').val();
+    const type = $('#food').val();
+    const name = $('#name-of-food').val();
 
     $('.new-row').append(`
         <tr>
@@ -13,6 +15,8 @@ $('.submit').click(event => {
             <td>${email}</td>
             <td>${city}</td>
             <td>${phone}</td>
+            <td>${type}</td>
+            <td>${name}</td>
         </tr>
     `)
 
