@@ -133,12 +133,14 @@ tfoot {
 }
 
 .btn {
-    font-size: xx-large;
+    font-size: large;
 }
 
-.btn a {
+.a-element {
     color: azure;
-
+    background-color: brown;
+    border: 3px solid black;
+    border-radius: 10px;
 }
 
 th, td {
@@ -186,4 +188,58 @@ th, td {
     background-color: bisque;
     border-radius: 10px;
     height: 30px;
+}
+
+.orders-title {
+    text-align: center;
+    font-size: x-large;
+    color: brown;
+}
+
+.fieldset {
+    margin: 20px 31%;
+}
+
+fieldset {
+    margin: 10px 50px;
+    border-radius: 10px;
+}
+
+fieldset legend {
+    color: brown;
+    font-size: x-large;
+}
+
+.fieldset div {
+    margin: 20px 0;
+}
+
+.fieldset input, label {
+    width: 500px;
+    height: 30px;
+    margin: 10px;
+}
+
+.submit {
+    width: 200px;
+    height: 50px;
+    background-color: brown;
+    color: yellow;
+    font-size: x-large;
+    border-radius: 5px;
+    margin: 0 43%;
+}
+
+.submit:hover {
+    box-shadow: 5px 5px 5px 5px black;
+}
+
+.table {
+    margin: 30px auto;
+    color: red;
+    background-color: lightgoldenrodyellow;
+    border: 3px solid brown;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: x-large;
 }
