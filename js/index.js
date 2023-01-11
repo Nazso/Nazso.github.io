@@ -68,4 +68,4 @@ clickedDessert.click(event => {
         $('.main-dessert').removeClass('background-yellow')
         $('.main-dessert').addClass('background-red')
     }    
-})
+});
