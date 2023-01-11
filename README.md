@@ -1,9 +1,9 @@
 # Nazso.github.io
-Practice page
+Practice page 
 
-This is a "colorful" site with delicious foods.
+This is a "colorful" site with delicious foods. 
 
-Click to the card and sme new information will appear.
+Click to the card and sme new information will appear. 
 
 ## Technologies
 
